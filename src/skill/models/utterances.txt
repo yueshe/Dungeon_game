@@ -1,0 +1,37 @@
+UnrecognizedIntent ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+ResetStateIntent reset skill
+ResetStateIntent start again
+ResetStateIntent reset
+RestoreStateIntent resume skill
+RestoreStateIntent resume
+RepeatOptionsIntent repeat options
+RepeatSceneIntent repeat scene
+RepeatSceneIntent repeat
+GoBackIntent go back
+AMAZON.HelpIntent help
+AMAZON.StopIntent exit skill
+AMAZON.CancelIntent exit skill
+BeginIntent begin
+GoWestIntent Go west
+GoSouthIntent Go south
+GoEastIntent go east
+GoNorthIntent go north
+WalkUpToItIntent Walk up to it
+SneakBehindIntent sneak behind
+RaiseSwordIntent Raise sword
+DodgeIntent Dodge
+DodgeIntent dodge
+SwingSwordIntent swing sword
+GoToTrailIntent Go to trail
+ReadyIntent READY
+SkipIntent SKIP
+SkullIntent SKULL
+CandleIntent candle
+WineIntent wine
+MaskIntent mask
+FireMagicIntent Fire magic
+HolyMagicIntent holy magic

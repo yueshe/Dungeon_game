@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "intent": "UnrecognizedIntent"
+    },
+    {
+      "intent": "ResetStateIntent"
+    },
+    {
+      "intent": "RestoreStateIntent"
+    },
+    {
+      "intent": "RepeatOptionsIntent"
+    },
+    {
+      "intent": "RepeatSceneIntent"
+    },
+    {
+      "intent": "GoBackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "BeginIntent"
+    },
+    {
+      "intent": "GoWestIntent"
+    },
+    {
+      "intent": "GoSouthIntent"
+    },
+    {
+      "intent": "GoEastIntent"
+    },
+    {
+      "intent": "GoNorthIntent"
+    },
+    {
+      "intent": "WalkUpToItIntent"
+    },
+    {
+      "intent": "SneakBehindIntent"
+    },
+    {
+      "intent": "RaiseSwordIntent"
+    },
+    {
+      "intent": "DodgeIntent"
+    },
+    {
+      "intent": "SwingSwordIntent"
+    },
+    {
+      "intent": "GoToTrailIntent"
+    },
+    {
+      "intent": "ReadyIntent"
+    },
+    {
+      "intent": "SkipIntent"
+    },
+    {
+      "intent": "SkullIntent"
+    },
+    {
+      "intent": "CandleIntent"
+    },
+    {
+      "intent": "WineIntent"
+    },
+    {
+      "intent": "MaskIntent"
+    },
+    {
+      "intent": "FireMagicIntent"
+    },
+    {
+      "intent": "HolyMagicIntent"
+    }
+  ]
+}
