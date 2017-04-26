@@ -16,22 +16,35 @@ AMAZON.HelpIntent help
 AMAZON.StopIntent exit skill
 AMAZON.CancelIntent exit skill
 BeginIntent begin
-GoWestIntent Go west
-GoSouthIntent Go south
+GoWestIntent go west
+GoWestIntent west
+GoSouthIntent go south
+GoSouthIntent south
 GoEastIntent go east
+GoEastIntent east
 GoNorthIntent go north
-WalkUpToItIntent Walk up to it
+GoNorthIntent north
+WalkUpIntent walk up
+WalkUpIntent walk
+WalkUpIntent go ahead
 SneakBehindIntent sneak behind
-RaiseSwordIntent Raise sword
-DodgeIntent Dodge
+SneakBehindIntent sneak
+SneakBehindIntent behind
+RaiseSwordIntent raise sword
+RaiseSwordIntent attack
+DodgeIntent dodge
 DodgeIntent dodge
 SwingSwordIntent swing sword
-GoToTrailIntent Go to trail
-ReadyIntent READY
-SkipIntent SKIP
-SkullIntent SKULL
+SwingSwordIntent attack
+GoToTrailIntent go to trail
+GoToTrailIntent trail
+ReadyIntent ready
+SkipIntent skip
+SkullIntent skull
 CandleIntent candle
 WineIntent wine
 MaskIntent mask
-FireMagicIntent Fire magic
+FireMagicIntent fire magic
+FireMagicIntent fire
 HolyMagicIntent holy magic
+HolyMagicIntent holy

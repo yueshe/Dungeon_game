@@ -6,11 +6,11 @@
     "readPreviousOptions": false,
     "card": {
       "title": "0",
-      "text": "Welcome to the demo version of Dungeon Adventure, say begin to start a new game. You may say Help at any time when in doubt",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-0-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-0-s.png"
       }
     },
     "voice": {
@@ -32,12 +32,12 @@
     "isHidden": false,
     "readPreviousOptions": false,
     "card": {
-      "title": "1",
-      "text": "Welcome, adventurer. In the world of Dungeon Adventure, there are countless of creatures for you to battle and  tons of loots to collect. Here's an Iron Sword to aid you in your journey. My dear adventurer, please take care. Your journey begins in the Town of Dawn.",
-      "prompt": "You can choose to go either of the four directions such as: go north",
+      "title": "Town of Dawn",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-1-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-1-s.png"
       }
     },
     "voice": {
@@ -47,25 +47,29 @@
     "options": [
       {
         "utterances": [
-          "Go west"
+          "go west",
+          "west"
         ],
         "sceneId": 2
       },
       {
         "utterances": [
-          "Go south"
+          "go south",
+          "south"
         ],
         "sceneId": 3
       },
       {
         "utterances": [
-          "go east"
+          "go east",
+          "east"
         ],
         "sceneId": 4
       },
       {
         "utterances": [
-          "go north"
+          "go north",
+          "north"
         ],
         "sceneId": 5
       }
@@ -73,56 +77,56 @@
   },
   {
     "id": 2,
-    "color": "red",
+    "color": "default",
     "isHidden": false,
     "readPreviousOptions": false,
     "card": {
       "title": "You lose",
-      "text": "Better luck next time.",
-      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "text": "Content not available.",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-s.png"
       }
     },
     "voice": {
-      "intro": "You lose. Better luck next time.",
+      "intro": "This content is not implemented yet.",
       "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\""
     },
     "options": []
   },
   {
     "id": 3,
-    "color": "yellow",
+    "color": "default",
     "isHidden": false,
     "readPreviousOptions": true,
     "card": {
       "title": "you lose",
-      "text": "Better luck next time.",
-      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-s.png"
       }
     },
     "voice": {
-      "intro": "This door is locked. Maybe you should try one of the other doors.",
-      "prompt": ""
+      "intro": "This content is not implemented yet.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\""
     },
     "options": []
   },
   {
     "id": 4,
-    "color": "green",
+    "color": "default",
     "isHidden": false,
     "readPreviousOptions": false,
     "card": {
       "title": "You lose",
-      "text": "Better luck next time.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-s.png"
       }
     },
     "voice": {
@@ -134,32 +138,36 @@
   {
     "id": 5,
     "color": "default",
-    "isHidden": true,
+    "isHidden": false,
     "readPreviousOptions": false,
     "card": {
-      "title": "G0",
-      "text": "You arrive at the market to the north of the town. You hear villagers crying from afar and you decide to take a look. Much to your surprise, you find a human-sized goblin beating people up. These kind of creatures are extremely rare nowadays. You decide to take it down before it causes more damage.",
+      "title": "Goblin Fight",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G0-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G0-s.png"
       }
     },
     "voice": {
-      "intro": "Congratulations, you've found a secret room. You look around and see a single door with a star on it.",
+      "intro": "You arrive at the market to the north of the town. You hear villagers crying from afar and decide to take a look. Much to your surprise, you find a human-sized goblin beating people up. These kind of creatures are extremely rare nowadays. You decide to take it down before it causes more damage.",
       "prompt": ""
     },
     "options": [
       {
         "sceneId": 6,
         "utterances": [
-          "Walk up to it"
+          "walk up",
+          "walk",
+          "go ahead"
         ]
       },
       {
         "sceneId": 7,
         "utterances": [
-          "sneak behind"
+          "sneak behind",
+          "sneak",
+          "behind"
         ]
       }
     ]
@@ -171,12 +179,12 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "G1",
-      "text": "Upon making some eye contacts, the goblin seems to have set you as its next target. From afar, it charges towards you with a big stick.",
+      "title": "Goblin Fight",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G1-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G1-s.png"
       }
     },
     "voice": {
@@ -187,13 +195,14 @@
       {
         "sceneId": 8,
         "utterances": [
-          "Raise sword"
+          "raise sword",
+          "attack"
         ]
       },
       {
         "sceneId": 9,
         "utterances": [
-          "Dodge"
+          "dodge"
         ]
       }
     ]
@@ -206,15 +215,15 @@
     "readPreviousOptions": false,
     "card": {
       "title": "YOU LOSE",
-      "text": "You attempt to sneak behind the goblin. However, in a frenzy state it swings the stick around his body, and it unfortunately lands on your neck. My dear adventurer, may you continue your journey after healing your broken neck.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G11_or_G121_o_G2-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G11_or_G121_or_G2-s.png"
       }
     },
     "voice": {
-      "intro": "The goblin swings his stick at you. You try to parry with your iron sword, but your strength is no match to a frenzy goblin’s. The stick lands right on your head. My dear adventurer, may you continue your journey after getting out of the coma.",
+      "intro": "You attempt to sneak behind the goblin. However, in a frenzy state it swings the stick around his body, and it unfortunately lands on your neck. My dear adventurer, may you continue your journey after healing your broken neck.",
       "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
     },
     "options": []
@@ -227,11 +236,11 @@
     "readPreviousOptions": false,
     "card": {
       "title": "YOU LOSE",
-      "text": "The goblin swings his stick at you. You try to parry with your iron sword, but your strength is no match to a frenzy goblin’s. The stick lands right on your head. My dear adventurer, may you continue your journey after getting out of the coma",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G11_or_G121_o_G2-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G11_or_G121_or_G2-s.png"
       }
     },
     "voice": {
@@ -247,12 +256,12 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "G12",
-      "text": "You successfully dodges the goblin’s attack. Now you are only 2 steps away from the goblin. However, it seems that it has gotten angry with you. The next strike is coming in seconds.",
+      "title": "Goblin Fight",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G12-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G12-s.png"
       }
     },
     "voice": {
@@ -269,7 +278,8 @@
       {
         "sceneId": 11,
         "utterances": [
-          "swing sword"
+          "swing sword",
+          "attack"
         ]
       }
     ]
@@ -282,11 +292,11 @@
     "readPreviousOptions": false,
     "card": {
       "title": "YOU LOSE",
-      "text": "The goblin swings his stick one more time. You try to dodge but the attack arrives much earlier that you thought. The stick lands right on your back. My dear adventurer, may you continue your journey after healing your broken spine.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G11_or_G121_o_G2-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G11_or_G121_or_G2-s.png"
       }
     },
     "voice": {
@@ -302,23 +312,24 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "G122",
-      "text": "You awkwardly swing your sword. Although your strength is no match to a goblin’s, it runs right into the blade. That completely disables the evil creature. Good job! You just saved the town. The village head appreciates your heroic deed. As a reward, he offers you a secret trial of intelligence.",
+      "title": "Goblin Fight",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G122-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-G122-s.png"
       }
     },
     "voice": {
-      "intro": "You enter a room. What would you like to do?",
+      "intro": "You awkwardly swing your sword. Although your strength is no match to a goblin’s, it runs right into the blade. That completely disables the evil creature. Good job! You just saved the town. The village head appreciates your heroic deed. As a reward, he offers you a secret trial of intelligence.",
       "prompt": ""
     },
     "options": [
       {
         "sceneId": 12,
         "utterances": [
-          "Go to trail"
+          "go to trail",
+          "trail"
         ]
       }
     ]
@@ -331,11 +342,11 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Puzzle",
-      "text": "The scholar of great wisdom says to you: congratulations on killing your first enemy. However, A great hero should not only be courageous, but also intelligent. Your test is simple, in order to prove your wisdom, you need to answer the following riddle. Say ready when you are ready, or say skip if you wish not to take the challenge..",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-PUZZLE-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-PUZZLE-s.png"
       }
     },
     "voice": {
@@ -346,13 +357,13 @@
       {
         "sceneId": 13,
         "utterances": [
-          "READY"
+          "ready"
         ]
       },
       {
         "sceneId": 14,
         "utterances": [
-          "SKIP"
+          "skip"
         ]
       }
     ]
@@ -364,23 +375,23 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "READY CASE",
-      "text": "I'm always smiling, but I never laugh.\nI once loved life, from cat to calf.\nI'm always staring, but I cannot see.\nI once held secrets, those give to me.\nWhat am I? The choices are: candle, wine, skull, mask",
+      "title": "Puzzle",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-PUZZLE-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-PUZZLE-s.png"
       }
     },
     "voice": {
-      "intro": "I'm always smiling, but I never laugh.\nI once loved life, from cat to calf.\nI'm always staring, but I cannot see.\nI once held secrets, those give to me.\nWhat am I? The choices are: candle, wine, skull, mask",
+      "intro": "I'm always smiling, but I never laugh.\nI once loved life, from cat to calf.\nI'm always staring, but I cannot see.\nI once held secrets, those give to me.\nWhat am I?",
       "prompt": ""
     },
     "options": [
       {
         "sceneId": 15,
         "utterances": [
-          "SKULL"
+          "skull"
         ]
       },
       {
@@ -410,12 +421,12 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "SKIP CASE",
-      "text": "The best warrior always combines his wisdom and fighting skills to defeat his enemies. Best of luck in future adventures! The game demo ends here.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Skip Puzzle",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-SKIP_or_SKILL-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-SKIP_or_SKILL-s.png"
       }
     },
     "voice": {
@@ -431,12 +442,12 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Correct answer",
-      "text": "You are indeed a very brilliant adventurer. As you proves your wisdom by solving all the riddles, the grand mage offers to teach you about the power of magic, Fire magic or holy magic. Which one would you like to learn?",
+      "title": "Correct answer!",
+      "text": "",
       "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-CORRECT_ANSWER-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-CORRECT_ANSWER-s.png"
       }
     },
     "voice": {
@@ -447,13 +458,15 @@
       {
         "sceneId": 17,
         "utterances": [
-          "Fire magic"
+          "fire magic",
+          "fire"
         ]
       },
       {
         "sceneId": 19,
         "utterances": [
-          "holy magic"
+          "holy magic",
+          "holy"
         ]
       }
     ]
@@ -465,12 +478,12 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Ends",
-      "text": "Unfortunately, that is not the correct answer. The best warrior always combines his wisdom and fighting skills to defeat his enemies. Best of luck in future adventures! The game demo ends here",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Demo Ends",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-s.png"
       }
     },
     "voice": {
@@ -486,17 +499,17 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Skill",
-      "text": "You have successfully learned the new skill: SUN FIRE.Blast an enemy with a charge of radiant heat, dealing flame damage over 5 seconds. You can cast this skill by saying SUN FIRE in future games. Game demo ends here.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Skill Obtained!",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-SKIP_or_SKILL-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-SKIP_or_SKILL-s.png"
       }
     },
     "voice": {
-      "intro": "You have successfully learned the new skill: SUN FIRE.Blast an enemy with a charge of radiant heat, dealing flame damage over 5 seconds. You can cast this skill by saying SUN FIRE in future games. Game demo ends here.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
+      "intro": "You have successfully learned the new skill: SUN FIRE.Blast an enemy with a charge of radiant heat, dealing flame damage over 5 seconds. You can cast this skill by saying SUN FIRE in future battles. Game demo ends here.",
+      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill\"."
     },
     "options": []
   },
@@ -507,12 +520,12 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "ends",
-      "text": "Unfortunately, that is not the correct answer. The best warrior always combines his wisdom and fighting skills to defeat his enemies. Best of luck in future adventures! The game demo ends here",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Demo Ends",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-s.png"
       }
     },
     "voice": {
@@ -528,17 +541,17 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Skill",
-      "text": "You have successfully learned the new skill: HEALING RITUAL.Focus your spiritual devotion, healing yourself from fatal wounds. You can cast this skill by saying HEALING RITUAL in future games. Game demo ends here.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Skill Obtained!",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-SKIP_or_SKILL-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-SKIP_or_SKILL-s.png"
       }
     },
     "voice": {
-      "intro": "You have successfully learned the new skill: HEALING RITUAL.Focus your spiritual devotion, healing yourself from fatal wounds. You can cast this skill by saying HEALING RITUAL in future games. Game demo ends here.",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
+      "intro": "You have successfully learned the new skill: HEALING RITUAL.Focus your spiritual devotion, healing yourself from fatal wounds. You can cast this skill by saying HEALING RITUAL in future battles. Game demo ends here.",
+      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill\"."
     },
     "options": []
   },
@@ -549,12 +562,12 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "ends",
-      "text": "Unfortunately, that is not the correct answer. The best warrior always combines his wisdom and fighting skills to defeat his enemies. Best of luck in future adventures! The game demo ends here",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Demo Ends",
+      "text": "",
+      "prompt": "",
       "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
+        "largeImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-b.png",
+        "smallImageUrl": "https://s3.amazonaws.com/cs161dungeonadventuredemographics/DA-ENDS-s.png"
       }
     },
     "voice": {

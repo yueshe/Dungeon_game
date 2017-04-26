@@ -43,7 +43,7 @@
       "intent": "GoNorthIntent"
     },
     {
-      "intent": "WalkUpToItIntent"
+      "intent": "WalkUpIntent"
     },
     {
       "intent": "SneakBehindIntent"

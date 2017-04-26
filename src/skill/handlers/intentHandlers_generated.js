@@ -29,10 +29,10 @@ module.exports = {
 		processUtterance( intent, session, request, response, "begin" )
 	},
 	"GoWestIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "Go west" )
+		processUtterance( intent, session, request, response, "go west" )
 	},
 	"GoSouthIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "Go south" )
+		processUtterance( intent, session, request, response, "go south" )
 	},
 	"GoEastIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "go east" )
@@ -40,14 +40,14 @@ module.exports = {
 	"GoNorthIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "go north" )
 	},
-	"WalkUpToItIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "Walk up to it" )
+	"WalkUpIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "walk up" )
 	},
 	"SneakBehindIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "sneak behind" )
 	},
 	"RaiseSwordIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "Raise sword" )
+		processUtterance( intent, session, request, response, "raise sword" )
 	},
 	"DodgeIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "dodge" )
@@ -56,16 +56,16 @@ module.exports = {
 		processUtterance( intent, session, request, response, "swing sword" )
 	},
 	"GoToTrailIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "Go to trail" )
+		processUtterance( intent, session, request, response, "go to trail" )
 	},
 	"ReadyIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "READY" )
+		processUtterance( intent, session, request, response, "ready" )
 	},
 	"SkipIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "SKIP" )
+		processUtterance( intent, session, request, response, "skip" )
 	},
 	"SkullIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "SKULL" )
+		processUtterance( intent, session, request, response, "skull" )
 	},
 	"CandleIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "candle" )
@@ -77,7 +77,7 @@ module.exports = {
 		processUtterance( intent, session, request, response, "mask" )
 	},
 	"FireMagicIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "Fire magic" )
+		processUtterance( intent, session, request, response, "fire magic" )
 	},
 	"HolyMagicIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "holy magic" )
